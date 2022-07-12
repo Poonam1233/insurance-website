@@ -9,11 +9,13 @@ header p {
   margin-bottom: 0px;
 }
 
-header ul {
+.row ul {
+  text-decoration: none;
   margin-right: 30px;
 }
 
 header li {
+  text-decoration: none;
   margin-bottom: 0px;
 }
 
