@@ -9,6 +9,14 @@ header p {
   margin-bottom: 0px;
 }
 
+header ul {
+  margin-right: 30px;
+}
+
+header li {
+  margin-bottom: 0px;
+}
+
 a[href^='mailto'] {
   text-decoration: none;
   color: inherit;
