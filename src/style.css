@@ -71,3 +71,8 @@ a:hover {
   color: #fff;
   border-radius: 0 8px 8px 0;
 }
+.phone-icon {
+  color: #0ce0ff;
+  padding: 5px 20px 5px 20px;
+  font-size: 25px;
+}
