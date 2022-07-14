@@ -53,3 +53,7 @@ a:hover {
 .bg-light {
   background-color: #fff !important;
 }
+
+.collapse {
+  display: block;
+}
