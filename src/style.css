@@ -54,6 +54,6 @@ a:hover {
   background-color: #fff !important;
 }
 
-.collapse {
-  display: block;
+.navbar-nav {
+  background-color: #696e77;
 }
