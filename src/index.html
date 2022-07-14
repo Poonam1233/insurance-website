@@ -76,22 +76,34 @@
         <a href="#" class="logo"><image src="https://github.com/Poonam1233/insurance-website/blob/main/src/images/logo-1.png?raw=true"></a>
         
 
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Insurance</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">News</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-          <li class="nav-item"><a href="#" class="nav-link btn btn-primary quote">Get a Quote</a></li>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+         
+      
+
+            <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Insurance</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link btn btn-primary quote">Get a Quote</a></li>
           </ul>
         </div><!--navbar-collapse-->
 
         <div class="navbar-right d-flex">
           <div class="phone-icon"><i class="fa-solid fa-phone-flip"></i></div>
-          <div class="nav-item"><a href="#">+92 (003) 68-090</a>
+          <div class="nav-item"><a href="#" class="number">+92 (003) 68-090</a>
             <p>Call to Our Experts</p>
           </div>
         </div><!--navbar-right-->
@@ -99,11 +111,40 @@
       </div><!--container-->
     </nav>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
 
