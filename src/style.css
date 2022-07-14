@@ -55,5 +55,19 @@ a:hover {
 }
 
 .navbar-nav {
-  background-color: #696e77;
+  background-color: #f2f5f9;
+  border-radius: 8px 0 0 8px;
+}
+
+.nav-link {
+  padding: 18px 24px !important;
+  font-size: 15px;
+}
+
+.logo {
+  margin-right: 50px;
+}
+.quote {
+  color: #fff;
+  border-radius: 0 8px 8px 0;
 }
