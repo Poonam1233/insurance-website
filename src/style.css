@@ -60,7 +60,7 @@ a:hover {
 }
 
 .nav-link {
-  padding: 18px 24px !important;
+  padding: 18px 24px !important;    
   font-size: 15px;
 }
 
@@ -83,6 +83,7 @@ a:hover {
   font-size: 25px;
   margin-right: 20px;
 }
+
 .number {
   color: #16243d;
   font-size: 16px;
@@ -94,8 +95,15 @@ a:hover {
   font-size: 16px;
   font-weight: 700;
 }
+
 .nav-item p {
   color: #696e77;
   font-size: 14px;
   margin-top: 0px;
+}
+
+/**carousel start**/
+
+.item-1 {
+  background: url(https://github.com/Poonam1233/insurance-website/blob/main/src/images/main-slider-1-1.jpg?raw=true);
 }
