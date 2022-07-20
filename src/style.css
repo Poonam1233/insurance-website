@@ -219,17 +219,16 @@ a:hover {
   background-size: contain;
 }
 
-
 /**cards start**/
 
 .card-container {
-  margin-left: 250px;
+  margin-left: 150px;
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
 .card {
-  margin-left: 90px;
+  margin-left: 40px;
 }
 
 .card-body:hover {
@@ -239,12 +238,12 @@ a:hover {
 
 .card-body {
   color: #16243d;
-  width: 420px;
-  height: 335px;
+  width: 375px;
+  height: 300px;
   border-radius: 15px;
   box-shadow: 1px 1px 1px 1px;
   background-color: #fff;
-  padding: 30px;
+  padding: 20px;
 }
 
 .card-icon {
