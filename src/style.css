@@ -218,3 +218,140 @@ a:hover {
     no-repeat right center;
   background-size: contain;
 }
+
+
+/**cards start**/
+
+.card-container {
+  margin-left: 250px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.card {
+  margin-left: 90px;
+}
+
+.card-body:hover {
+  background-color: #16243d;
+  color: #fff;
+}
+
+.card-body {
+  color: #16243d;
+  width: 420px;
+  height: 335px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.card-icon {
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.card-number {
+  font-size: 60px;
+  margin-left: 150px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 41px;
+  letter-spacing: 1px;
+}
+
+/**colomn start**/
+
+.image-container {
+  margin-left: 180px;
+}
+
+.image-2 {
+  bottom: -100px;
+  margin-left: -600px;
+}
+.colomn {
+  padding-left: 40px;
+}
+
+.col {
+  text-align: left;
+}
+
+.row {
+  margin-left: 120px;
+}
+
+.col h5 {
+  text-align: left;
+  font-size: 16px;
+  color: #16243d;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.col h2 {
+  color: #16243d;
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+
+.col p {
+  font-size: 28px;
+  color: #015fc9;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.col ul li p {
+  margin-top: -10px;
+  margin-left: 20px;
+  font-size: 22px;
+  color: #16243d !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 2px !important;
+}
+
+.col ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+.col-icon {
+  font-size: 22px;
+  color: #0ce0ff;
+  margin-top: 40px;
+}
+
+.contact {
+  margin-left: 30px;
+}
+
+.col h4 {
+  margin-top: 10px;
+}
